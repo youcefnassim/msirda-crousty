@@ -53,6 +53,7 @@ const Navbar = () => {
           >
             <Menu size={28} />
           </button>
+        </div>
       </motion.nav>
 
       <AnimatePresence>
