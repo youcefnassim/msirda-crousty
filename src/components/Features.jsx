@@ -5,7 +5,6 @@ import './Features.css';
 
 const Features = () => {
   const features = [
-    { icon: <Flame size={40} />, title: 'Poulet frais', desc: 'Préparé sur place tous les jours' },
     { icon: <BadgeCheck size={40} />, title: '100% Poulet Frais', desc: 'Viande certifiée de haute qualité' },
     { icon: <Utensils size={40} />, title: 'Sauces maison', desc: 'Des recettes uniques et secrètes' },
     { icon: <Heart size={40} />, title: 'Produits faits maison', desc: 'L\'authenticité dans chaque bouchée' },
