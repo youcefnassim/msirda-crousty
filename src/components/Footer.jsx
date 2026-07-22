@@ -40,10 +40,10 @@ const Footer = () => {
               L'adresse incontournable pour les amateurs de vrai poulet frit. Une expérience croustillante inoubliable !
             </p>
             <div className="social-links">
-              <a href="#" className="social-icon" aria-label="Instagram">
+              <a href="https://instagram.com/msir.da13" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Instagram">
                 <InstagramIcon size={24} />
               </a>
-              <a href="#" className="social-icon" aria-label="TikTok">
+              <a href="https://tiktok.com/@msirda.crousty" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="TikTok">
                 <TikTokIcon size={24} />
               </a>
             </div>
@@ -65,7 +65,7 @@ const Footer = () => {
               </li>
               <li>
                 <Phone size={20} className="icon-yellow" />
-                <span>+213 555 12 34 56</span>
+                <span>0564852966</span>
               </li>
             </ul>
           </div>

@@ -6,23 +6,30 @@ const Specialty = () => {
   const specialties = [
     {
       id: 1,
-      name: 'M\'SIRDA CROUSTY + Frites',
-      description: 'Poulet croustillant avec panure maison, frites dorées et sauce au choix.',
-      price: '850 DA',
+      name: 'Poulet Croustillant + Riz',
+      description: 'Morceaux de poulet croustillant servis sur un lit de riz parfumé.',
+      price: '750 DA',
       image: '/assets/images/logo.jpg'
     },
     {
       id: 2,
-      name: 'M\'SIRDA CROUSTY + Riz',
-      description: 'Morceaux de poulet croustillant servis sur un lit de riz parfumé.',
-      price: '950 DA',
+      name: 'Poulet Croustillant + Frites',
+      description: 'Poulet croustillant avec panure maison et frites dorées.',
+      price: '800 DA',
       image: '/assets/images/logo.jpg'
     },
     {
       id: 3,
-      name: 'M\'SIRDA CROUSTY + Pâtes crémeuses',
-      description: 'Notre fameux poulet accompagné de pâtes à la sauce crémeuse.',
-      price: '1100 DA',
+      name: 'Menu : Poulet Croustillant + Riz + Boisson',
+      description: 'Notre spécialité avec riz accompagnée d\'une boisson fraîche.',
+      price: '800 DA',
+      image: '/assets/images/logo.jpg'
+    },
+    {
+      id: 4,
+      name: 'Menu : Poulet Croustillant + Riz + Verrine Citron',
+      description: 'Le menu complet avec un dessert frais pour terminer en beauté.',
+      price: '950 DA',
       image: '/assets/images/logo.jpg'
     }
   ];

@@ -3,55 +3,54 @@ import { motion, AnimatePresence } from 'framer-motion';
 import './MenuSection.css';
 
 const MenuSection = () => {
-  const [activeTab, setActiveTab] = useState('burgers');
+  const [activeTab, setActiveTab] = useState('salads');
 
   const categories = [
-    { id: 'burgers', name: 'Burgers' },
-    { id: 'bowls', name: 'Bowls sur Riz' },
     { id: 'salads', name: 'Salades' },
     { id: 'snacks', name: 'Coin Snack' },
+    { id: 'sides', name: 'Accompagnements' },
+    { id: 'sauces', name: 'Sauces Maison' },
     { id: 'desserts', name: 'Desserts' },
     { id: 'drinks', name: 'Boissons' }
   ];
 
   const menuItems = {
-    burgers: [
-      { name: 'Cheese Burger', price: '450 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Crispy Burger', price: '550 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Chicken Burger', price: '600 DA', image: '/assets/images/logo.jpg' }
-    ],
-    bowls: [
-      { name: 'Bowl M\'SIRDA Crousty', price: '800 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Bowl Crousty Salé', price: '850 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Bowl Crousty Sucré', price: '900 DA', image: '/assets/images/logo.jpg' }
-    ],
     salads: [
-      { name: 'César', price: '400 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Healthy', price: '450 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Niçoise', price: '500 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Méditerranéenne', price: '450 DA', image: '/assets/images/logo.jpg' }
+      { name: 'Salade César', price: '550 DA', image: '/assets/images/logo.jpg' },
+      { name: 'Salade Healthy', price: '450 DA', image: '/assets/images/logo.jpg' },
+      { name: 'Salade Niçoise', price: '400 DA', image: '/assets/images/logo.jpg' }
     ],
     snacks: [
-      { name: 'Pizza', price: '250 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Pizza Carré', price: '150 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Baguette', price: '200 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Quiche', price: '180 DA', image: '/assets/images/logo.jpg' },
+      { name: 'Pizza Carrée', price: '100 DA', image: '/assets/images/logo.jpg' },
+      { name: 'Quiche', price: '150 DA', image: '/assets/images/logo.jpg' },
       { name: 'Soufflé', price: '150 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Manchon', price: '120 DA', image: '/assets/images/logo.jpg' }
+      { name: 'Mouchan de Fromage', price: '150 DA', image: '/assets/images/logo.jpg' }
+    ],
+    sides: [
+      { name: 'Frites', price: '200 DA', image: '/assets/images/logo.jpg' },
+      { name: 'Riz', price: '350 DA', image: '/assets/images/logo.jpg' }
+    ],
+    sauces: [
+      { name: 'Sauce M\'SIRDA (Signature)', price: '-', image: '/assets/images/logo.jpg' },
+      { name: 'Sauce Algérienne', price: '-', image: '/assets/images/logo.jpg' },
+      { name: 'Sauce Ail', price: '-', image: '/assets/images/logo.jpg' },
+      { name: 'Sauce Fromagère', price: '-', image: '/assets/images/logo.jpg' },
+      { name: 'Sauce Honey Mustard', price: '-', image: '/assets/images/logo.jpg' },
+      { name: 'Sauce Harissa', price: '-', image: '/assets/images/logo.jpg' },
+      { name: 'Sauce Barbecue', price: '-', image: '/assets/images/logo.jpg' },
+      { name: 'Sauce Sweet Chili', price: '-', image: '/assets/images/logo.jpg' }
     ],
     desserts: [
-      { name: 'Cheesecake', price: '350 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Verrines', price: '250 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Tiramisu', price: '300 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Mousse au chocolat', price: '250 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Churros', price: '200 DA', image: '/assets/images/logo.jpg' }
+      { name: 'Cheesecake Lotus', price: '450 DA', image: '/assets/images/logo.jpg' },
+      { name: 'Tiramisu (Petit format)', price: '350 DA', image: '/assets/images/logo.jpg' },
+      { name: 'Tiramisu (Grand format)', price: '650 DA', image: '/assets/images/logo.jpg' },
+      { name: 'Verrines (Citron)', price: '130 DA', image: '/assets/images/logo.jpg' },
+      { name: 'Mousse au chocolat', price: '200 DA', image: '/assets/images/logo.jpg' }
     ],
     drinks: [
-      { name: 'Coca-Cola', price: '100 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Sprite', price: '100 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Fanta', price: '100 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Eau Minérale', price: '50 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Jus d\'Orange', price: '150 DA', image: '/assets/images/logo.jpg' }
+      { name: 'IZEM Canette (25 cl)', price: '150 DA', image: '/assets/images/logo.jpg' },
+      { name: 'Eau Minérale IZEM (50 cl)', price: '50 DA', image: '/assets/images/logo.jpg' },
+      { name: 'Coca-Cola (30 cl)', price: '80 DA', image: '/assets/images/logo.jpg' }
     ]
   };
 
