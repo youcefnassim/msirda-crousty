@@ -21,11 +21,11 @@ const Hero = () => {
           <p>Découvrez l'expérience ultime du poulet frit. Une panure secrète, un goût authentique et une qualité irréprochable.</p>
           
           <div className="hero-buttons">
-            <a href="#menu" className="btn-primary">
-              Voir le menu <ChevronRight size={20} />
+            <a href="https://wa.me/213564852966?text=Bonjour%2C%20je%20souhaite%20passer%20une%20commande." target="_blank" rel="noopener noreferrer" className="btn-primary">
+              Commander
             </a>
             <a href="#menu" className="btn-secondary">
-              Commander
+              Voir le menu <ChevronRight size={20} />
             </a>
           </div>
         </motion.div>

@@ -44,7 +44,7 @@ const Navbar = () => {
           </div>
 
           <div className="nav-actions desktop-only">
-            <a href="#menu" className="btn-primary">Commander</a>
+            <a href="https://wa.me/213564852966?text=Bonjour%2C%20je%20souhaite%20passer%20une%20commande." target="_blank" rel="noopener noreferrer" className="btn-primary">Commander</a>
           </div>
 
           <button 
@@ -53,7 +53,6 @@ const Navbar = () => {
           >
             <Menu size={28} />
           </button>
-        </div>
       </motion.nav>
 
       <AnimatePresence>
@@ -82,7 +81,7 @@ const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <a href="#menu" className="btn-primary" onClick={() => setMobileMenuOpen(false)}>
+              <a href="https://wa.me/213564852966?text=Bonjour%2C%20je%20souhaite%20passer%20une%20commande." target="_blank" rel="noopener noreferrer" className="btn-primary" onClick={() => setMobileMenuOpen(false)}>
                 Commander
               </a>
             </div>

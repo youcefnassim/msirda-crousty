@@ -24,7 +24,9 @@ const FloatingButton = () => {
     <AnimatePresence>
       {isVisible && (
         <motion.a
-          href="#menu"
+          href="https://wa.me/213564852966?text=Bonjour%2C%20je%20souhaite%20passer%20une%20commande."
+          target="_blank"
+          rel="noopener noreferrer"
           className="floating-btn"
           initial={{ opacity: 0, scale: 0, y: 50 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}

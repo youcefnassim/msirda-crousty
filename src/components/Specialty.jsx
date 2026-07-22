@@ -65,7 +65,15 @@ const Specialty = () => {
               <p>{item.description}</p>
               <div className="card-footer">
                 <span className="price-badge">{item.price}</span>
-                <button className="btn-primary btn-sm">Ajouter</button>
+                <a 
+                  href="https://wa.me/213564852966?text=Bonjour%2C%20je%20souhaite%20passer%20une%20commande." 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="btn-primary btn-sm"
+                  style={{ textDecoration: 'none' }}
+                >
+                  Commander
+                </a>
               </div>
             </div>
           </motion.div>
