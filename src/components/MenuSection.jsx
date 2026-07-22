@@ -44,7 +44,7 @@ const MenuSection = () => {
       { name: 'Cheesecake Lotus', price: '450 DA', image: '/assets/images/logo.jpg' },
       { name: 'Tiramisu (Petit format)', price: '350 DA', image: '/assets/images/logo.jpg' },
       { name: 'Tiramisu (Grand format)', price: '650 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Verrines (Citron)', price: '130 DA', image: '/assets/images/logo.jpg' },
+      { name: 'Verrines (Citron)', price: '150 DA', image: '/assets/images/logo.jpg' },
       { name: 'Mousse au chocolat', price: '200 DA', image: '/assets/images/logo.jpg' },
       { name: 'Dubai Pistache (Petit format)', price: '400 DA', image: '/assets/images/logo.jpg' },
       { name: 'Dubai Pistache (Grand format)', price: '800 DA', image: '/assets/images/logo.jpg' }
