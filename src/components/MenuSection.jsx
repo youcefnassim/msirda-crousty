@@ -45,11 +45,13 @@ const MenuSection = () => {
       { name: 'Tiramisu (Petit format)', price: '350 DA', image: '/assets/images/logo.jpg' },
       { name: 'Tiramisu (Grand format)', price: '650 DA', image: '/assets/images/logo.jpg' },
       { name: 'Verrines (Citron)', price: '130 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Mousse au chocolat', price: '200 DA', image: '/assets/images/logo.jpg' }
+      { name: 'Mousse au chocolat', price: '200 DA', image: '/assets/images/logo.jpg' },
+      { name: 'Dubai Pistache (Petit format)', price: '400 DA', image: '/assets/images/logo.jpg' },
+      { name: 'Dubai Pistache (Grand format)', price: '800 DA', image: '/assets/images/logo.jpg' }
     ],
     drinks: [
       { name: 'IZEM Canette (25 cl)', price: '150 DA', image: '/assets/images/logo.jpg' },
-      { name: 'Eau Minérale IZEM (50 cl)', price: '50 DA', image: '/assets/images/logo.jpg' },
+      { name: 'Eau Minérale SAIDA (50 cl)', price: '50 DA', image: '/assets/images/logo.jpg' },
       { name: 'Coca-Cola (30 cl)', price: '80 DA', image: '/assets/images/logo.jpg' }
     ]
   };
